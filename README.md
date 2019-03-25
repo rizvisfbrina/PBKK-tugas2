@@ -2,11 +2,11 @@
 
 a) Deskripsi singkat jalannya aplikasi
 - Data yang harus dientry di dalam form merupakan data yang berobjek String
-  Judul Film
-  Tahun
-  Genre
-  Bahasa
-  Sutradara
+    - Judul Film
+    - Tahun
+    - Genre
+    - Bahasa
+    - Sutradara
 - Bagaimana data diproses pada controller (sebutkan pula route URL dan fungsi yang memproses form tersebut)
 
 - Bagaimana controller mengirimkan data ke view ke halaman yang lain.
