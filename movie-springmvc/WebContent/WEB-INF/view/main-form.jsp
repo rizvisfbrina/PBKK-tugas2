@@ -13,37 +13,35 @@
 <title>Hello Form</title>
 </head>
 <body>
-	<h1>Welcome, Enter Movie Title</h1>
-	<form:form action="processForm" method="POST" modelAttribute="movie">
-		<!-- 
-		<input type="text" name="message"></input>
-		<input type="submit" value="Submit"></input> 
-		-->
-		<table>
-                <tr>
-                    <td><form:label path="title">Title</form:label></td>
-                    <td><form:input path="title" class="form-control"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="date">Release Date</form:label></td>
-                    <td><form:input path="date" class="form-control"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="genre">Genre</form:label></td>
-                    <td><form:input path="genre" class="form-control"/></td>
-                </tr>
-                <tr>
-                    <td><form:label path="bahasa">Bahasa</form:label></td>
-                    <td><form:input path="bahasa" class="form-control"/></td>
-                </tr>
-				<tr>
-                    <td><form:label path="sutradara">Sutradara</form:label></td>
-                    <td><form:input path="sutradara" class="form-control"/></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" class="btn btn-primary" value="Submit"/></td>
-                </tr>
-            </table>
-	</form:form>
+	<div class="container">
+		<h1>Welcome, Enter Movie Details</h1>
+		<form:form action="processForm" method="POST" modelAttribute="movie">
+			<table>
+	                <tr>
+	                    <td><form:label path="judul">Judul</form:label></td>
+	                    <td><form:input path="judul" class="form-control"/></td>
+	                </tr>
+	                <tr>
+	                    <td><form:label path="tahun">Tahun</form:label></td>
+	                    <td><form:input path="tahun" class="form-control"/></td>
+	                </tr>
+	                <tr>
+	                    <td><form:label path="genre">Genre</form:label></td>
+	                    <td><form:input path="genre" class="form-control"/></td>
+	                </tr>
+	                <tr>
+	                    <td><form:label path="bahasa">Bahasa</form:label></td>
+	                    <td><form:input path="bahasa" class="form-control"/></td>
+	                </tr>
+					<tr>
+	                    <td><form:label path="sutradara">Sutradara</form:label></td>
+	                    <td><form:input path="sutradara" class="form-control"/></td>
+	                </tr>
+	                <tr>
+	                    <td><input type="submit" class="btn btn-primary" class="form-control" value="Submit"/></td>
+	                </tr>
+	            </table>
+		</form:form>
+	</div>
 </body>
 </html>

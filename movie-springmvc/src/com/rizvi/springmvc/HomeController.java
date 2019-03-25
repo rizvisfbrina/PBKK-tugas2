@@ -20,8 +20,8 @@ public class HomeController {
 				if (result.hasErrors()) {
 					return "error";
 				}
-				model.addAttribute("title", movie.getTitle());
-				model.addAttribute("date", movie.getDate());
+				model.addAttribute("judul", movie.getJudul());
+				model.addAttribute("tahun", movie.getTahun());
 				model.addAttribute("genre", movie.getGenre());
 				model.addAttribute("bahasa", movie.getBahasa());
 				model.addAttribute("sutradara", movie.getSutradara());

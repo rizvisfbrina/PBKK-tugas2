@@ -1,26 +1,13 @@
 package com.rizvi.springmvc;
 
 public class Movie {
-	private String title;
-	private String date;
+	private String judul;
+	private String tahun;
 	private String genre;
 	private String bahasa;
 	private String sutradara;
 	
 	
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
-	
-	public String getDate() {
-		return date;
-	}
-	public void setDate(String date) {
-		this.date = date;
-	}
 	public String getGenre() {
 		return genre;
 	}
@@ -38,6 +25,18 @@ public class Movie {
 	}
 	public void setSutradara(String sutradara) {
 		this.sutradara = sutradara;
+	}
+	public String getJudul() {
+		return judul;
+	}
+	public void setJudul(String judul) {
+		this.judul = judul;
+	}
+	public String getTahun() {
+		return tahun;
+	}
+	public void setTahun(String tahun) {
+		this.tahun = tahun;
 	}
 	
 }
